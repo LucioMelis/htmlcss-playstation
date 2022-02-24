@@ -1,0 +1,20 @@
+/***** HEADER  *****/
+.lm-sony{
+    width: 100px;
+}
+
+[src*="chevron-down"]{
+    width: 10px;
+}
+/****** MAIN *****/
+
+/* jumbotron */
+
+#jumbotron{
+    background-image: url(img/jumbo-bg.png);
+    background-position-x: center;
+}
+
+.lm-padding{
+    padding-top: 350px;
+}
