@@ -13,8 +13,9 @@
 #jumbotron{
     background-image: url(img/jumbo-bg.png);
     background-position-x: center;
+    background-position-y: top;
 }
 
 .lm-padding{
-    padding-top: 350px;
+   padding: 250px 0 90px;
 }
