@@ -55,6 +55,10 @@
     filter: none;
 }
 
+#playstation-5 .lm-hover-img:hover{
+    border-bottom: 1px solid #157dd1;
+}
+
 /* game - banner */
 #game {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
