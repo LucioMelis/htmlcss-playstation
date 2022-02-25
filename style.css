@@ -83,3 +83,13 @@
 .p-accessory{
     min-height: 75px;
 }
+
+/* Play-Plus  */
+
+#playstation-plus{
+    background-color: #bebcbb;
+}
+
+.lm-btn-plus{
+    background-color: #d9dadc;
+}
