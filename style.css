@@ -35,8 +35,8 @@
 }
 /* playstation-5  */
 
-.text-secondary{
-    font-size: 1.2rem;
+.p-text-p5{
+    font-size: 1.1rem;
 }
 
 #playstation-5 .lm-padding-items > *{
@@ -45,6 +45,14 @@
 }
 #playstation-5 .fw-bolder > p{
     margin-bottom: 0;
+}
+
+.lm-img-opacity{
+    filter: opacity(50%);
+}
+
+.lm-img-opacity:hover{
+    filter: none;
 }
 
 /* game - banner */
@@ -57,4 +65,21 @@
 .lm-btn-orange{
     background-color: #cd3d0f;
     color: white;
+}
+
+/* new-releases */
+
+#new-releases{
+    background-color: #1f1f1f;
+}
+
+/* playstation-4 */
+
+.p-text-p4{
+    padding-top: 20px;
+    max-width: 450px;
+}
+
+.p-accessory{
+    min-height: 75px;
 }
