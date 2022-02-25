@@ -1,3 +1,8 @@
+/* utilities */
+.lm-row-gap{
+    row-gap: 20px;
+}
+
 /***** HEADER  *****/
 .lm-sony{
     width: 100px;
@@ -12,10 +17,18 @@
 
 #jumbotron{
     background-image: url(img/jumbo-bg.png);
-    background-position-x: center;
-    background-position-y: top;
+    background-position: center;
+    background-size: cover;
 }
 
 .lm-padding{
-   padding: 250px 0 90px;
+   padding-top:250px;
+   padding-bottom: 90px;
 }
+
+/* board */
+
+.lm-border-radius{
+    border-radius: 10px;
+}
+
