@@ -3,6 +3,19 @@
     row-gap: 20px;
 }
 
+.lm-padding{
+    padding-top:250px;
+    padding-bottom: 90px;
+ }
+
+ .lm-border-radius{
+    border-radius: 10px;
+}
+
+.lm-h1-fontsize{
+    font-size: 1.2rem;
+}
+
 /***** HEADER  *****/
 .lm-sony{
     width: 100px;
@@ -20,15 +33,28 @@
     background-position: center;
     background-size: cover;
 }
+/* playstation-5  */
 
-.lm-padding{
-   padding-top:250px;
-   padding-bottom: 90px;
+.text-secondary{
+    font-size: 1.2rem;
 }
 
-/* board */
-
-.lm-border-radius{
-    border-radius: 10px;
+#playstation-5 .lm-padding-items > *{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#playstation-5 .fw-bolder > p{
+    margin-bottom: 0;
 }
 
+/* game - banner */
+#game {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lm-btn-orange{
+    background-color: #cd3d0f;
+    color: white;
+}
