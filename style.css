@@ -51,7 +51,7 @@
     filter: opacity(50%);
 }
 
-.lm-img-opacity:hover{
+.lm-hover-img:hover .lm-img-opacity{
     filter: none;
 }
 
