@@ -98,6 +98,12 @@
     background-color: #161c3b;
 }
 
+/* Social  */
+
+.lm-shadow-social:hover{
+    filter:drop-shadow(3px 4px 6px black);
+}
+
 /****** FOOTER *****/
 
 #footer-play{
@@ -167,4 +173,8 @@
 
 .transition-board:hover{
     transform: translateY(-8px);
+}
+
+.lm-scale:hover{
+    transform: scale(1.03);
 }
