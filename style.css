@@ -1,19 +1,11 @@
 /* utilities */
+
 .lm-row-gap{
     row-gap: 20px;
 }
 
-.lm-padding{
-    padding-top:250px;
-    padding-bottom: 90px;
- }
-
  .lm-border-radius{
     border-radius: 10px;
-}
-
-.lm-h1-fontsize{
-    font-size: 1.2rem;
 }
 
 /***** HEADER  *****/
@@ -32,7 +24,15 @@
     background-image: url(img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
 }
+
+.lm-padding{
+    padding-top:250px;
+    padding-bottom: 90px;
+ }
+
 /* playstation-5  */
 
 .p-text-p5{
@@ -51,19 +51,13 @@
     filter: opacity(50%);
 }
 
-.lm-hover-img:hover .lm-img-opacity{
-    filter: none;
-}
-
-#playstation-5 .lm-hover-img:hover{
-    border-bottom: 1px solid #157dd1;
-}
-
 /* game - banner */
 #game {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .lm-btn-orange{
@@ -122,8 +116,13 @@
     color: white;
 }
 
-#footer-play div ul li a:hover{
-    text-decoration: underline;
+/******** MEDIAQUERY *****/
+
+@media screen and (min-width: 1650px){
+    .lm-padding{
+        padding-top: 350px;
+        padding-bottom: 90px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -132,3 +131,40 @@
     }
 }
 
+/********** HOOVER ***********/
+
+.lm-hover-red:hover{
+    outline-offset: 2px;
+    outline: 2px solid #cd3d0f;
+}
+
+.lm-hover-img:hover .lm-img-opacity{
+    filter: none;
+}
+
+#playstation-5 .lm-hover-img:hover{
+    border-bottom: 1px solid #157dd1;
+}
+
+.lm-hover-blue:hover{
+    outline-offset: 2px;
+    outline: 2px solid #2d64e6;
+}
+
+#footer-play div ul li a:hover{
+    text-decoration: underline;
+}
+
+.lm-hover-white:hover{
+    outline-offset: 2px;
+    outline: 2px solid white;
+}
+
+.lm-hover-black:hover{
+    outline-offset: 3px;
+    outline: 3px solid black;
+}
+
+.transition-board:hover{
+    transform: translateY(-8px);
+}
