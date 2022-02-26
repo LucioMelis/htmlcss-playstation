@@ -113,10 +113,6 @@
     filter: drop-shadow(2px 4px 6px black);
 }
 
-.lm-globe{
-    width: 15px;
-}
-
 #footer-play div ul li{
     list-style-type: none;
 }
@@ -129,3 +125,10 @@
 #footer-play div ul li a:hover{
     text-decoration: underline;
 }
+
+@media screen and (min-width: 992px){
+    .lm-p-maxwidht{
+        width: 600px;
+    }
+}
+
