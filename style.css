@@ -103,3 +103,29 @@
 #playstation-now{
     background-color: #161c3b;
 }
+
+/****** FOOTER *****/
+
+#footer-play{
+    background-color: #00439c;
+}
+.filter-footer {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.lm-globe{
+    width: 15px;
+}
+
+#footer-play div ul li{
+    list-style-type: none;
+}
+
+#footer-play div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-play div ul li a:hover{
+    text-decoration: underline;
+}
