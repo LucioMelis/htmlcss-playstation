@@ -178,7 +178,7 @@
 
 .transition-board:hover{
     transform: translateY(-8px);
-    transition: transform 0.8s;
+    transition: transform 0.5s;
 }
 
 .lm-scale:hover{
