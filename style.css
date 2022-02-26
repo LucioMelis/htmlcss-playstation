@@ -135,6 +135,11 @@
     .lm-p-maxwidht{
         width: 600px;
     }
+
+    .rotate-scale-up:hover {
+        -webkit-animation: rotate-scale-up 0.50s linear both;
+                animation: rotate-scale-up 0.50s linear both;
+    }
 }
 
 /********** HOOVER ***********/
@@ -173,8 +178,42 @@
 
 .transition-board:hover{
     transform: translateY(-8px);
+    transition: transform 0.8s;
 }
 
 .lm-scale:hover{
     transform: scale(1.03);
 }
+
+/* Keyframes */
+
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(0.8) rotateZ(0);
+              transform: scale(0.8) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(1) rotateZ(180deg);
+              transform: scale(1) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(0.8) rotateZ(360deg);
+              transform: scale(0.8) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(0.8) rotateZ(0);
+              transform: scale(0.8) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(1) rotateZ(180deg);
+              transform: scale(1) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(0.8) rotateZ(360deg);
+              transform: scale(0.8) rotateZ(360deg);
+    }
+  }
+  
+  
