@@ -17,14 +17,16 @@
     width: 10px;
 }
 
-/******* header menù dropdpwn  *****/
+/******* header menù dropdown  *****/
 
 .dropdown-toggle::after{
     display: none;
 }
-
-
-
+.dropdown-menu[data-bs-popper] {
+    top: 96%;
+    left: 0;
+    margin-top: 0.125rem;
+}
 /****** MAIN *****/
 
 /* jumbotron */
