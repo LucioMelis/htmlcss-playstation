@@ -9,6 +9,7 @@
 }
 
 /***** HEADER  *****/
+
 .lm-sony{
     width: 100px;
 }
@@ -17,7 +18,7 @@
     width: 10px;
 }
 
-/******* header menù dropdown  *****/
+/* menù dropdown */
 
 .dropdown-toggle::after{
     display: none;
@@ -27,6 +28,7 @@
     left: 0;
     margin-top: 0.125rem;
 }
+
 /****** MAIN *****/
 
 /* jumbotron */
@@ -194,6 +196,14 @@
 
 .lm-scale:hover{
     transform: scale(1.03);
+}
+
+.nav-item:hover [src*="chevron-down-solid.svg"]{
+    display:none;
+}
+
+.nav-item:hover [src*="chevron-down-solid-hover.svg"]{
+    display: inline !important;
 }
 
 /* Keyframes */
