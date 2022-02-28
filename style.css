@@ -16,6 +16,15 @@
 [src*="chevron-down"]{
     width: 10px;
 }
+
+/******* header menù dropdpwn  *****/
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+
 /****** MAIN *****/
 
 /* jumbotron */

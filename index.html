@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- java link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
     <title>Playstation</title>
@@ -46,12 +50,30 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav fw-bolder">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                                aria-current="page" href="#">
                                 Giochi
                                 <img src="img/chevron-down-solid.svg" alt="">
                                 <img class="d-none" src="img/chevron-down-solid-hover.svg" alt="">
                             </a>
+                            <!-- Prove di nav-bar dropdown  -->
+                            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdownMenuLink">
+
+                                <li class="row justify-content-center">
+                                    <a class="dropdown-item w-auto" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play-menu-ico">
+                                    </a>
+                                    <a class="dropdown-item w-auto" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play-menu-ico">
+                                    </a>
+                                    <a class="dropdown-item w-auto" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play-menu-ico">
+                                    </a>
+                                </li>
+
+                            </ul>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">
